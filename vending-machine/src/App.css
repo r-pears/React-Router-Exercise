@@ -1,7 +1,80 @@
-.vendingContainer {
-  background-image: url('./vendingMachine.jpg');
+/* General CSS */
+* {
+  color: #000026;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
   background-repeat: no-repeat;
   height: 100vh;
   width: 100vw;
   background-size: cover;
+}
+
+.message {
+  font-size: 130px;
+  text-align: center;
+  padding: 175px 45px 0 45px;
+}
+
+.link {
+  position: absolute;
+  top: 20px;
+  left: 25px;
+  text-align: center;
+  color: #000026;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #0099ff
+}
+
+
+/* CSS for VendingMachine */
+.vending.container {
+  background-image: url('./vendingMachine.jpg');
+}
+
+
+.vendingMessage {
+  text-align: center;
+  padding: 75px 45px 0 45px;
+}
+
+.vendingLinks {
+  display: flex;
+  justify-content: space-between;
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 175px 45px 0 45px;
+}
+
+.vendingLink {
+  color: #fff;
+  text-decoration: none;
+}
+
+.vendingLink:hover {
+  color: #e8e8e8
+}
+
+/* CSS for Soda */
+.soda.container {
+  background-image: url('./soda.jpg');
+}
+
+/* CSS for Chips */
+.chips.container {
+  background-image: url('./chips.jpg');
+}
+
+/* CSS for Sardines */
+.sardines.container {
+  background-image: url('./sardines.jpg');
+}
+
+.sardines.message {
+  color: #9603aa;
 }
