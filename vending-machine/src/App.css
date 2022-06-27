@@ -1,0 +1,7 @@
+.vendingContainer {
+  background-image: url('./vendingMachine.jpg');
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+}
